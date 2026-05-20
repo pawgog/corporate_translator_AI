@@ -1,0 +1,1 @@
+export const calculateSpice=(text:string)=>Math.min(100,25+(text.match(/fuck|idiot|shit|piss|cunt|cocksucker|motherfucker|tits/gi)?.length||0)*20);
