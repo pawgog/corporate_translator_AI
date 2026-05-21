@@ -155,7 +155,8 @@ AI layer
 Clone:
 
 ```bash
-git clone
+git clone https://github.com/pawgog/corporate_translator_AI.git
+cd corporate_translator_AI
 cd backend
 npm i
 npm run dev
@@ -164,6 +165,8 @@ cd frontend
 npm i
 npm run dev
 ```
+
+Env:
 
 ```env
 cd backend
